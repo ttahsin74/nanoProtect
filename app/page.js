@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import { useState } from "react";
 import { ProgressBar } from "react-step-progress-bar";
 import "react-step-progress-bar/styles.css";
@@ -591,7 +592,7 @@ const MultiStepForm = () => {
           <div className="flex items-center justify-between ">
             <div className="md:w-[12%] w-[25%]">
               <a href="https://nanoprotectsolutions.ca/">
-                <img src={navLogo} alt="nano-Logo" />
+                <Image  src={navLogo} alt="nano-Logo" />
               </a>
             </div>
             <div
@@ -700,7 +701,7 @@ const MultiStepForm = () => {
               {step === 1 && (
                 <div className="mt-10 mb-7">
                   <label className="font-semibold" htmlFor="step1">
-                    What is being Protected?
+                    What is Being Protected?
                     <span className="text-red-400">*</span>
                   </label>
                   <select
@@ -926,7 +927,7 @@ const MultiStepForm = () => {
                   href="https://nanoprotectsolutions.ca/"
                   className=" items-center px-4 py-10 rounded-lg bg-[#1B1C36] inline-block"
                 >
-                  <img className="" src={navLogo} alt="nano-Logo" />
+                  <Image className="" src={navLogo} alt="nano-Logo" />
                 </a>
               </div>
               <div>
@@ -1022,7 +1023,7 @@ const MultiStepForm = () => {
                       href="https://nanoprotectsolutions.ca/wood-protection/"
                       className=" "
                     >
-                      Wood protection
+                      Wood Protection
                     </a>
                   </li>
                 </ul>
