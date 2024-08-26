@@ -124,33 +124,33 @@ const MultiStepForm = () => {
     if (selectedProtection === "Asphalt Shingle Roof") {
       if (selectedAge === "0-8 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
-          calculatedReplacement = "5000 - $14,000";
+          calculatedPrice = "$800 - $2,400";
+          calculatedReplacement = "$5,000 - $14,000";
         }
       }
       if (selectedAge === "8-12 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "700 - $2,200";
-          calculatedReplacement = "5000 - $14,000";
+          calculatedPrice = "$700 - $2,200";
+          calculatedReplacement = "$5,000 - $14,000";
         }
       }
       if (selectedAge === "12-20 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "700 - $2,200";
-          calculatedReplacement = "5000 - $14,000";
+          calculatedPrice = "$700 - $2,200";
+          calculatedReplacement = "$5,000 - $14,000";
         }
       }
       if (selectedAge === "20+ Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "700 - $2,200";
-          calculatedReplacement = "5000 - $14,000";
+          calculatedPrice = "$700 - $2,200";
+          calculatedReplacement = "$5,000 - $14,000";
         }
       }
     }
     if (selectedProtection === "Asphalt Shingle Roof") {
       if (selectedAge === "0-8 Years") {
         if (selectedSize === "Medium (1500 - 2500sqft)") {
-          calculatedPrice = "2500 - $4,000";
+          calculatedPrice = "$2,500 - $4,000";
           calculatedReplacement = "$14,000 - $24,000";
         }
       }
@@ -228,25 +228,25 @@ const MultiStepForm = () => {
     if (selectedProtection === "Elastomeric Membrane/SBS") {
       if (selectedAge === "0-8 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$7,000 - $20,000";
         }
       }
       if (selectedAge === "8-12 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$7,000 - $20,000";
         }
       }
       if (selectedAge === "12-20 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$7,000 - $20,000";
         }
       }
       if (selectedAge === "20+ Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$7,000 - $20,000";
         }
       }
@@ -332,25 +332,25 @@ const MultiStepForm = () => {
     if (selectedProtection === "Concrete or Asphalt") {
       if (selectedAge === "0-8 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$13,000 - $38,000";
         }
       }
       if (selectedAge === "8-12 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$13,000 - $38,000";
         }
       }
       if (selectedAge === "12-20 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$13,000 - $38,000";
         }
       }
       if (selectedAge === "20+ Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$13,000 - $38,000";
         }
       }
@@ -359,25 +359,25 @@ const MultiStepForm = () => {
       if (selectedAge === "0-8 Years") {
         if (selectedSize === "Medium (1500 - 2500sqft)") {
           calculatedPrice = "$2,400 - $4,000";
-          calculatedReplacement = "$38,000 - $63000";
+          calculatedReplacement = "$38,000 - $63,000";
         }
       }
       if (selectedAge === "8-12 Years") {
         if (selectedSize === "Medium (1500 - 2500sqft)") {
           calculatedPrice = "$2,400 - $4,000";
-          calculatedReplacement = "$38,000 - $63000";
+          calculatedReplacement = "$38,000 - $63,000";
         }
       }
       if (selectedAge === "12-20 Years") {
         if (selectedSize === "Medium (1500 - 2500sqft)") {
           calculatedPrice = "$2,400 - $4,000";
-          calculatedReplacement = "$38,000 - $63000";
+          calculatedReplacement = "$38,000 - $63,000";
         }
       }
       if (selectedAge === "20+ Years") {
         if (selectedSize === "Medium (1500 - 2500sqft)") {
           calculatedPrice = "$2,400 - $4,000";
-          calculatedReplacement = "$38,000 - $63000";
+          calculatedReplacement = "$38,000 - $63,000";
         }
       }
     }
@@ -385,25 +385,25 @@ const MultiStepForm = () => {
       if (selectedAge === "0-8 Years") {
         if (selectedSize === "Large (2500 - 3500sqft)") {
           calculatedPrice = "$4,000 - $5,600";
-          calculatedReplacement = "$63000 - $88,000";
+          calculatedReplacement = "$63,000 - $88,000";
         }
       }
       if (selectedAge === "8-12 Years") {
         if (selectedSize === "Large (2500 - 3500sqft)") {
           calculatedPrice = "$4,000 - $5,600";
-          calculatedReplacement = "$63000 - $88,000";
+          calculatedReplacement = "$63,000 - $88,000";
         }
       }
       if (selectedAge === "12-20 Years") {
         if (selectedSize === "Large (2500 - 3500sqft)") {
           calculatedPrice = "$4,000 - $5,600";
-          calculatedReplacement = "$63000 - $88,000";
+          calculatedReplacement = "$63,000 - $88,000";
         }
       }
       if (selectedAge === "20+ Years") {
         if (selectedSize === "Large (2500 - 3500sqft)") {
           calculatedPrice = "$4,000 - $5,600";
-          calculatedReplacement = "$63000 - $88,000";
+          calculatedReplacement = "$63,000 - $88,000";
         }
       }
     }
@@ -436,25 +436,25 @@ const MultiStepForm = () => {
     if (selectedProtection === "Wood") {
       if (selectedAge === "0-8 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$9,000 - $27,000";
         }
       }
       if (selectedAge === "8-12 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$9,000 - $27,000";
         }
       }
       if (selectedAge === "12-20 Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$800 - $2,400";
           calculatedReplacement = "$9,000 - $27,000";
         }
       }
       if (selectedAge === "20+ Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "800 - $2,400";
+          calculatedPrice = "$                                                                    800 - $2,400";
           calculatedReplacement = "$9,000 - $27,000";
         }
       }
@@ -489,25 +489,25 @@ const MultiStepForm = () => {
       if (selectedAge === "0-8 Years") {
         if (selectedSize === "Large (2500 - 3500sqft)") {
           calculatedPrice = "$4,000 - $5,600";
-          calculatedReplacement = "$45,000 - $63000";
+          calculatedReplacement = "$45,000 - $63,000";
         }
       }
       if (selectedAge === "8-12 Years") {
         if (selectedSize === "Large (2500 - 3500sqft)") {
           calculatedPrice = "$4,000 - $5,600";
-          calculatedReplacement = "$45,000 - $63000";
+          calculatedReplacement = "$45,000 - $63,000";
         }
       }
       if (selectedAge === "12-20 Years") {
         if (selectedSize === "Large (2500 - 3500sqft)") {
           calculatedPrice = "$4,000 - $5,600";
-          calculatedReplacement = "$45,000 - $63000";
+          calculatedReplacement = "$45,000 - $63,000";
         }
       }
       if (selectedAge === "20+ Years") {
         if (selectedSize === "Large (2500 - 3500sqft)") {
           calculatedPrice = "$4,000 - $5,600";
-          calculatedReplacement = "$45,000 - $63000";
+          calculatedReplacement = "$45,000 - $63,000";
         }
       }
     }
@@ -515,25 +515,25 @@ const MultiStepForm = () => {
       if (selectedAge === "0-8 Years") {
         if (selectedSize === "Extra Large (3500 - 5000sqft)") {
           calculatedPrice = "$5,600 - $8,000";
-          calculatedReplacement = "$63000 - $90,000";
+          calculatedReplacement = "$63,000 - $90,000";
         }
       }
       if (selectedAge === "8-12 Years") {
         if (selectedSize === "Extra Large (3500 - 5000sqft)") {
           calculatedPrice = "$5,600 - $8,000";
-          calculatedReplacement = "$63000 - $90,000";
+          calculatedReplacement = "$63,000 - $90,000";
         }
       }
       if (selectedAge === "12-20 Years") {
         if (selectedSize === "Extra Large (3500 - 5000sqft)") {
           calculatedPrice = "$5,600 - $8,000";
-          calculatedReplacement = "$63000 - $90,000";
+          calculatedReplacement = "$63,000 - $90,000";
         }
       }
       if (selectedAge === "20+ Years") {
         if (selectedSize === "Extra Large (3500 - 5000sqft)") {
           calculatedPrice = "$5,600 - $8,000";
-          calculatedReplacement = "$63000 - $90,000";
+          calculatedReplacement = "$63,000 - $90,000";
         }
       }
     }
@@ -586,6 +586,7 @@ const MultiStepForm = () => {
   };
 
   return (
+    
     <div>
       <div className="bg-[#1B1C36] py-[1%] ">
         <div className="max-w-[90%] m-auto ">
@@ -600,7 +601,7 @@ const MultiStepForm = () => {
                 menu ? "top-[60px]" : "top-[-200%]"
               } duration-300 md:w-auto w-[90%] md:bg-transparent`}
             >
-              <ul className="flex md:flex-row flex-col  md:items-center text-white font-semibold text-xl px-5 md:px-0 md:py-0 py-2 ">
+              <ul className="flex md:flex-row flex-col  md:items-center text-white font-medium text-lg px-5 md:px-0 md:py-0 py-2 ">
                 <li className="px-[11px] hover:text-[#6973ED] cursor-pointer duration-300 md:py-9 py-2">
                   <a href="https://nanoprotectsolutions.ca/"> Home</a>
                 </li>
@@ -940,7 +941,7 @@ const MultiStepForm = () => {
 
             <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3 w-[70%]">
               <div className="">
-                <h2 className="relative mb-6 text-sm font-bold text-gray-900 text-[23px] whitespace-nowrap after-content">
+                <h2 className="relative mb-6 font-bold text-gray-900 text-[23px] whitespace-nowrap after-content">
                   Quick Links
                 </h2>
                 <ul className="text-[#313131] font-medium">
@@ -990,7 +991,7 @@ const MultiStepForm = () => {
                 </ul>
               </div>
               <div className="">
-                <h2 className="relative mb-6 text-sm text-gray-900 text-[23px] whitespace-nowrap after-content font-bold">
+                <h2 className="relative mb-6  text-gray-900 text-[23px] whitespace-nowrap after-content font-bold">
                   Services
                 </h2>
                 <ul className="text-[#313131] font-medium">
@@ -1029,7 +1030,7 @@ const MultiStepForm = () => {
                 </ul>
               </div>
               <div className="">
-                <h2 className="relative mb-6 text-sm font-bold text-gray-900 text-[23px] whitespace-nowrap after-content">
+                <h2 className="relative mb-6  font-bold text-gray-900 text-[23px] whitespace-nowrap after-content">
                   Contact Info
                 </h2>
                 <ul className="text-[#313131] font-medium">
