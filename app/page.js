@@ -1,5 +1,5 @@
 "use client";
-import Image from 'next/image';
+import Image from "next/image";
 import { useState } from "react";
 import { ProgressBar } from "react-step-progress-bar";
 import "react-step-progress-bar/styles.css";
@@ -454,7 +454,8 @@ const MultiStepForm = () => {
       }
       if (selectedAge === "20+ Years") {
         if (selectedSize === "Small (500 - 1500sqft)") {
-          calculatedPrice = "$                                                                    800 - $2,400";
+          calculatedPrice =
+            "$                                                                    800 - $2,400";
           calculatedReplacement = "$9,000 - $27,000";
         }
       }
@@ -586,14 +587,13 @@ const MultiStepForm = () => {
   };
 
   return (
-    
     <div>
       <div className="bg-[#1B1C36] py-[1%] ">
         <div className="max-w-[90%] m-auto ">
           <div className="flex items-center justify-between ">
             <div className="md:w-[12%] w-[25%]">
               <a href="https://nanoprotectsolutions.ca/">
-                <Image  src={navLogo} alt="nano-Logo" />
+                <Image src={navLogo} alt="nano-Logo" />
               </a>
             </div>
             <div
@@ -1095,8 +1095,9 @@ const MultiStepForm = () => {
         </div>
         <div className="text-center font-normal py-3 bg-[#1B1C36] text-white">
           <p>
-            © 2024 | <a href="https://nanoprotectsolutions.ca/">NanoProtect Solutions</a> | All Rights Reserved
-            | Developed by
+            © 2024 |{" "}
+            <a href="https://nanoprotectsolutions.ca/">NanoProtect Solutions</a>{" "}
+            | All Rights Reserved | Developed by
             <a href="https://skydreamit.com/"> Sky Dream IT</a>
           </p>
         </div>

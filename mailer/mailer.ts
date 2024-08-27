@@ -2,22 +2,19 @@ import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
-  service: "gmail",
-  host: process.env.EMAIL_HOST,
-  port: 587,
-  secure: true,
+  host: process.env.MAIL_HOST,
+  port: process.env.MAIL_PORT,
+  secure: process.env.MAIL_ENCRYPTION === "ssl", // true for SSL/TLS
   auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASSWORD,
+    user: process.env.MAIL_USERNAME,
+    pass: process.env.MAIL_PASSWORD,
   },
-});
+} as nodemailer.TransportOptions & { host: string });
 
 export const sendMail = async (to, subject, text) => {
-  console.log(process.env.EMAIL_USER);
-
   try {
     await transporter.sendMail({
-      from: process.env.EMAIL_USER,
+      from: process.env.MAIL_FROM_ADDRESS,
       to,
       subject,
       text,
